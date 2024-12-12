@@ -1,0 +1,62 @@
+<ion-header id="header">
+  <ion-toolbar
+    color="primary"
+    class="transparent-bg"
+    style="display: flex; justify-content: space-between; align-items: center"
+  >
+    <!-- Lenguaje (solo visible cuando el usuario no esté logueado) -->
+    <div *ngIf="!isLoggedIn" slot="start" class="ion-margin">
+      <app-language #selectLanguage></app-language>
+    </div>
+
+    <!-- Título animado -->
+    <div
+      class="show-in-landscape"
+      style="
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        #animatedTitle
+        class="animated-title"
+        style="font-size: 250%; font-family: Merriweather"
+      >
+        {{"Header.Label.Sistema de asistencia Duoc" |translate }}
+      </div>
+    </div>
+
+    <!-- Botones de Tema y Salir -->
+    <div slot="end" class="ion-margin">
+      <!-- Botón de Tema (solo visible cuando el usuario no está logueado) -->
+      <ion-button
+        *ngIf="!isLoggedIn"
+        shape="round"
+        size="large"
+        color="secondary"
+        (click)="navigateTheme()"
+        id="tema"
+        class="btn-responsive"
+      >
+        Tema
+        <ion-icon slot="start" name="color-wand-outline"></ion-icon>
+      </ion-button>
+
+      <!-- Botón de Salir (solo visible cuando el usuario está logueado) -->
+      <ion-button
+        *ngIf="isLoggedIn"
+        size="large"
+        id="logout"
+        icon-only
+        color="secondary"
+        (click)="logout()"
+        class="btn-responsive"
+      >
+        {{"Header.Link.Salir"|translate}}
+        <ion-icon slot="start" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-header>

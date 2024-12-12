@@ -1,0 +1,135 @@
+ion-content {
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+}
+
+ion-item {
+  --padding-bottom: 10px;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.foto-portada {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px #003366;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.foto-portada:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (orientation: landscape) {
+  .center-container {
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .foto-portada {
+    width: 80%;
+    max-width: 500px;
+  }
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-label ion-label {
+  font-size: 14px; 
+  color: #F7E300;
+}
+
+.floating-label ion-input {
+  --padding-start: 0;
+}
+
+.floating-label .native-input {
+  padding: 16px 0;
+}
+
+.floating-label ion-item {
+  margin-bottom: 16px;
+}
+
+ion-button {
+  --background: #F7E300;
+  --color: #000000; 
+}
+
+ion-button:active {
+  --background: #E0C300; 
+}
+
+ion-button.ion-button-outline {
+  --border-color: #F7E300; 
+}
+
+#recuperar {
+  --background: #ff4700;
+}
+
+
+
+//* Contenedor para el logo y el mensaje */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;  /* Subir el logo un poco más cerca de la parte superior */
+}
+
+.imagen-validacion {
+  width: 800px;  /* Tamaño del logo ajustado */
+  height: auto;
+  margin-bottom: 100px; /* Reducir el espacio entre el logo y el texto */
+}
+
+/* Centrado del contenido del card */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+/* Ajuste del card */
+.card-custom {
+  width: 90%;
+  max-width: 500px;  /* Limitar el tamaño máximo del card */
+  margin-top: 20px; /* Reducir el espacio entre el logo + mensaje y el card */
+  margin: 0 auto;
+}
+
+.floating-label {
+  margin-bottom: 16px;
+}
+
+.input-field {
+  margin-top: 30px;
+}
+
+.ancho-boton {
+  width: 100%;
+}
+

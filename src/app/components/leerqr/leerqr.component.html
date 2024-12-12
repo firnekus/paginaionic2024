@@ -1,0 +1,32 @@
+<div class="centrar">  
+  <div class="enmarcar">
+    
+    <h2 *ngIf="!datosQR">
+      {{'Leerqr.Mensaje' | translate}}
+    </h2>
+
+    <!-- Mostrar mensaje "Dirígete a mi clase" si está disponible -->
+    <div *ngIf="mensajeDirigirse" class="mensaje-dirigirse">
+      <p>{{ "mensajeDirigirse" | translate }}</p>
+    </div>
+
+    <video #video [hidden]="!escaneando" style="width: 100%"></video>
+    <canvas #canvas hidden></canvas>
+
+    <div class="margin-top">
+      <ion-button *ngIf="!escaneando" (click)="comenzarEscaneoQR()" shape="round">
+        <ion-icon slot="start" name="videocam-outline"></ion-icon>
+        Comenzar escaneo
+      </ion-button>
+
+      <ion-button *ngIf="escaneando" (click)="detenerEscaneoQR()" shape="round">
+        <ion-icon slot="start" name="stop-circle-outline"></ion-icon>
+        Detener escaneo
+      </ion-button>
+    </div>
+    
+    <div *ngIf="errorAccesoCamara" class="error-message">
+      {{ 'HomePage.console.error' | translate }}  
+    </div>
+  </div>
+</div>

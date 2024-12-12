@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>correo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <!-- Contenedor para logo y mensaje fuera del card -->
+  <div class="logo-container">
+    <img alt="Imagen de validación" src="../../../assets/img/logoDuoc.png" class="imagen-validacion" />
+    <h1>Sistema de Asistencia DUOC</h1>
+  </div>
+
+<ion-content>
+  <div class="center-container">
+    <div class="ion-padding-vertical">
+      <ion-card class="ion-text-center">  
+        <ion-card-content>
+          <ion-card-header>
+            <ion-toolbar>
+              <h1 style="font-family: Merriweather">{{"Correo.Title.Titulo" | translate}}</h1>
+            </ion-toolbar>
+          </ion-card-header>
+          <h3>{{"Correo.Label.PasoUno" | translate}}</h3>
+          <ion-item class="floating-label">
+            <ion-label style="font-family: Lato" position="floating">{{"Correo.Label.Correo" | translate}}</ion-label>
+            <ion-input [(ngModel)]="correo" type="text"></ion-input>
+          </ion-item>
+
+          <ion-grid>
+            <div class="ion-margin-top">
+              <ion-button style="font-family: Noto Sans" shape="round" size="small" (click)="redirigir()" class="ancho-boton">
+               {{"Correo.Title.Titulo"| translate}}
+              </ion-button>
+            </div>
+          </ion-grid>
+        </ion-card-content>
+        <a 
+        (click)="mandarAInicio()" 
+        style="font-family: Noto Sans; color: #0dd9e0; text-decoration: none; display: block; margin-bottom: 10px; cursor: pointer;">
+        {{"Correo.Link.Inicio"|translate}}
+      </a>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
+

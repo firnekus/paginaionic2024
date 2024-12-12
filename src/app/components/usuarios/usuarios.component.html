@@ -1,0 +1,20 @@
+<ion-card *ngFor="let usuario of usuarios">
+  <ion-card-header>
+    <h4>
+      {{"Usuarios.Label.Titulo" | translate}}: {{ usuario.nombre }}: {{ usuario.apellido }} <br>
+    </h4>
+  </ion-card-header>
+
+  <ion-card-content>
+    <p>{{"Usuarios.Label.Correo" | translate}}: {{usuario.correo}}</p>
+    <p>{{"Usuarios.Label.NombreCu" | translate}}: {{usuario.cuenta}}</p>
+    <p>{{"Usuarios.Label.Direccion" | translate}}: {{usuario.direccion}}</p>
+  </ion-card-content>
+
+  <div class="alinear-derecha">
+
+    <ion-button (click)="matarUsuario(usuario)" color="tertiary">
+      {{"Foro.Link.Eliminar" | translate}}
+    </ion-button>
+  </div>
+</ion-card>

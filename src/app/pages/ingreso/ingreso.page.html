@@ -1,0 +1,52 @@
+<app-header></app-header>
+
+<ion-content>
+  <div class="center-container">
+    <div class="ion-padding-vertical">
+      <ion-card class="ion-text-center">
+        
+        <img alt="DUOC" [src]="imagenActual" (click)="cambiarImagen()" class="foto-portada" />
+      
+        <ion-card-content>
+
+          <ion-card-header>
+            
+            <ion-toolbar>           
+              <h2 style="font-family: Merriweather">{{'Login.Title.Login' | translate}}</h2>
+            </ion-toolbar>
+          </ion-card-header>
+
+          <ion-item class="floating-label">
+            <ion-label style="font-family: Lato" position="floating">{{'Login.Label.Email' | translate}}</ion-label>
+            <ion-input style="font-family: Lato" id="correo" [(ngModel)]="correo" type="text"></ion-input>
+          </ion-item>
+          <ion-item class="floating-label">
+            <ion-label style="font-family: Lato" position="floating">{{'Login.Label.Password' | translate}}</ion-label>
+            <ion-input style="font-family: Lato" id="password" [(ngModel)]="password" type="password"></ion-input>
+          </ion-item>
+          <ion-grid>
+            <div class="ion-margin-top">
+              <ion-button style="font-family: Noto Sans" id="ingresar" shape="round" size="small" (click)="ingresar()" class="ancho-boton">
+                {{ 'Login.Button.Login' | translate}}
+              </ion-button>
+            </div>
+            <div class="ion-margin-top">
+              <ion-button style="font-family: Noto Sans" shape="round" size="small" (click)="ingresar_ruta()" class="ancho-boton">
+                {{ 'ruta' | translate}}
+              </ion-button>
+            </div>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      <div>
+        <a (click)="recuperacion()" style="font-family: Noto Sans; color: #0dd9e0; text-decoration: none; display: block; margin-bottom: 10px; cursor: pointer;" id="recuperar">
+          {{'Login.Button.ForgotPassword' | translate}}
+        </a>
+        <a href="/registrarme"  style="font-family: Noto Sans; color: #0dd9e0; text-decoration: none; display: block;">
+          {{"Login.Button.Signin" | translate}}
+        </a>
+      </div> 
+      
+    </div>
+  </div>
+</ion-content>

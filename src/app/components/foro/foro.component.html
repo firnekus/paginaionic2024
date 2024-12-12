@@ -1,0 +1,65 @@
+<ion-content [fullscreen]="true">
+  <a #topOfPage href="#topOfPage"></a>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ "Foro.Label.Ingresar" | translate }}</ion-card-title>
+    </ion-card-header>
+
+    <div style="padding-left:1.5%; font-size:large; color:white">{{"Foro.Label.Titulo" | translate}}</div>
+    <ion-item class="ion-padding-horizontal">
+      <ion-input
+        [(ngModel)]="publicacion.title"
+        id="tituloPub"
+        labelPlacement="floating"
+      ></ion-input>
+      
+    </ion-item>
+
+    <div style="padding-left:1.5%;font-size:large; color:white">{{"Foro.Label.Contenido" | translate}}</div>
+    <ion-item class="ion-padding-horizontal">
+      <ion-textarea
+        [(ngModel)]="publicacion.body"
+        id="cuerpoPub"
+        labelPlacement="floating"
+      ></ion-textarea>
+    </ion-item>
+
+    <div class="alinear-centro">
+      <ion-button (click)="limpiarPublicacion()">{{
+        "Foro.Link.Limpiar" | translate
+      }}</ion-button>
+      <ion-button (click)="guardarPublicacion()" id="guardar">{{
+        "Foro.Link.Guardar" | translate
+      }}</ion-button>
+    </div>
+  </ion-card>
+
+  <ion-card class="sin-bordes">
+    <ion-card-title class="con-padding-top">{{
+      "Foro.Label.Publicacion" | translate
+    }}</ion-card-title>
+  </ion-card>
+
+  <ion-card class="ion-padding-bottom" *ngFor="let pub of publicaciones">
+    <ion-card-header>
+      <h4>
+        #{{ pub.id }}: {{ pub.title }} <br />
+        Autor: {{ pub.author }}
+      </h4>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{ pub.body }}
+    </ion-card-content>
+
+    <div class="alinear-derecha">
+      <ion-button (click)="editarPublicacion(pub)">
+        {{ "Foro.Link.Editar" | translate }}
+      </ion-button>
+
+      <ion-button id="borrar" (click)="eliminarPublicacion(pub)">
+        {{ "Foro.Link.Eliminar" | translate }}
+      </ion-button>
+    </div>
+  </ion-card>
+</ion-content>

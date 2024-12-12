@@ -1,0 +1,43 @@
+<ion-content [fullscreen]="true" class="contenido-principal">
+  <div class="centrar">
+    <div class="enmarcar-login">
+      <ion-card class="ion-text-center">
+        <ion-card-content>
+          <!-- Header del card con el logo -->
+
+          <ion-card-header>
+            <ion-toolbar>
+              <div class="logo-container">
+                <img
+                  alt="Imagen de validación"
+                  src="../../../assets/img/logoDuoc.png"
+                  class="imagen-validacion"
+                />
+              </div>
+              <h1>Sistema de Asistencia DUOC</h1>
+            </ion-toolbar>
+          </ion-card-header>
+          <!-- Imagen del hombre -->
+          <img
+            alt="Imagen de validación"
+            src="../../../assets/img/correct.jpg"
+            class="imagen-validacion"
+          />
+
+          <!-- Mensaje de validación de contraseña -->
+          <div class="mensaje-validacion">
+            <p>{{"Correcto.Label.TextUno" | translate}}</p>
+            <p>{{"Correcto.Label.TextDos" | translate}}</p>
+            <p><ion-label class="password-label">{{password}}</ion-label></p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-router-link routerLink="/ingreso">
+        <ion-button (click)="redirigir()" expand="full" class="custom-button">
+          {{"Correcto.Link.Inicio"|translate}}
+        </ion-button>
+      </ion-router-link>
+    </div>
+  </div>
+</ion-content>

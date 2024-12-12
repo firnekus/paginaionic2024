@@ -1,0 +1,17 @@
+ion-footer {
+  background-color: #d8ad01; 
+}
+
+ion-segment-button {
+  --background: #1c66af;
+  --color: #ffffff;
+  border-color: #000000;
+}
+
+ion-segment-button:active {
+  --background: #f1b634;
+}
+
+ion-segment-button.ion-button-outline {
+  --border-color: #f1b634;
+}

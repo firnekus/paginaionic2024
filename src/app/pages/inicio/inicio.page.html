@@ -1,0 +1,31 @@
+<app-header></app-header>
+
+<ion-content [fullscreen]="true">
+
+  <img alt="DUOC" src="../../../assets/img/logoDuoc.png" class="logo" />
+
+  <div *ngIf="componente_actual === ''" class="welcome-message">
+
+    ¡Bienvenido, {{ usuario?.nombre }} {{ usuario?.apellido }}! Elige una opción para continuar.
+  </div>
+
+  <app-leerqr 
+    *ngIf="componente_actual === 'qr'">
+  </app-leerqr>
+  <app-miclase 
+    *ngIf="componente_actual === 'miclase'">
+  </app-miclase>
+  <app-misdatos 
+    *ngIf="componente_actual === 'misdatos'">
+  </app-misdatos>
+  <app-foro 
+    *ngIf="componente_actual === 'foro'">
+  </app-foro>
+  <app-usuarios
+    *ngIf="componente_actual === 'usuarios'">
+  </app-usuarios>
+
+</ion-content>
+
+<app-footer (footerClick)="footerClick($event)">
+</app-footer>

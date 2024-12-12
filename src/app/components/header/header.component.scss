@@ -1,0 +1,93 @@
+/* Contenedor del toolbar */
+ion-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+}
+
+/* Contenedor para el título */
+.show-in-landscape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Estilo para los botones */
+.btn-responsive {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Ajustes para el ion-toolbar */
+    ion-toolbar {
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+        height: 70px;
+    }
+
+    /* Reducir el tamaño del título en pantallas pequeñas */
+    .animated-title {
+        font-size: 1.1rem;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        padding: 0 5px;
+    }
+
+    /* Estilo para los botones en pantallas pequeñas */
+    .btn-responsive {
+        font-size: 0.8rem;  /* Reducción de tamaño */
+        padding: 5px 5px;  /* Reducción de padding */
+    }
+
+    /* Mostrar el botón "Salir" en dispositivos móviles */
+    #logout {
+        display: block;  /* Asegura que el botón "Salir" esté visible */
+    }
+
+ 
+
+    /* Ocultar el título y el botón "Salir" en pantallas grandes */
+    .show-in-mobile {
+        display: none;
+    }
+
+    /* Ocultar el título en vista móvil */
+    .show-in-landscape {
+        display: none;
+    }
+
+    /* Mostrar el botón "Salir" en dispositivos móviles */
+    .show-in-mobile {
+        display: block;
+    }
+
+    /* Animación del título en pantallas pequeñas */
+    .animated-title {
+        font-size: 1.5rem;  /* Ajustar tamaño del título */
+        animation: fadeIn 1s;  /* Animación de entrada */
+    }
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animación para el título */
+@keyframes moveTitle {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}

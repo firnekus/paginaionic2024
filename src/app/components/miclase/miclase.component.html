@@ -1,0 +1,41 @@
+<ion-card>
+  <ion-card-header>
+    <h2>{{'Miclase.Bienvenido' | translate}} {{ usuario.nombre }} {{ usuario.apellido }} </h2>
+  </ion-card-header>
+
+  <h1 *ngIf="!usuario.asistencia.idAsignatura">
+    {{ 'assistance.information' | translate }}
+  </h1>
+
+  <ion-card-content>
+    <div class="header"> {{ 'Miclase.Label.BloqueInicio' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.bloqueInicio }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.BloqueTermino' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.bloqueTermino }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.Dia' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.dia }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.HoraInicio' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.horaInicio }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.HoraFin' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.horaFin }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.ID' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.idAsignatura }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.Asignatura' | translate }}: </div>
+    <div class="content">{{ usuario.asistencia!.nombreAsignatura }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.NombreProfe' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.nombreProfesor }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.Seccion' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.seccion }} </div>
+
+    <div class="header"> {{ 'Miclase.Label.Sede' | translate }}: </div>
+    <div class="content"> {{ usuario.asistencia!.sede }} </div>
+  </ion-card-content>
+</ion-card>

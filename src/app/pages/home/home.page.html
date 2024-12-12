@@ -1,0 +1,51 @@
+<app-header></app-header>
+
+<ion-content [fullscreen]="true">
+  <div id="mapId" style="height: 100%"></div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar class="ion-text-center" color="primary">
+    <ion-button
+      shape="round"
+      color="secondary"
+      size="small"
+      (click)="goToDUOC()"
+    >
+      DUOC
+    </ion-button>
+
+    <ion-button
+      shape="round"
+      color="secondary"
+      size="small"
+      (click)="goToMyPosition()"
+    >
+      Aquí
+    </ion-button>
+
+    <ion-button
+      shape="round"
+      color="secondary"
+      size="small"
+      (click)="showRouteToDuoc()"
+    >
+      Ruta
+    </ion-button>
+
+    <!-- Botón Salir -->
+    <ion-button
+      shape="round"
+      color="danger"
+      size="small"
+      (click)="logout()"
+    >
+      {{"Home.Link.Salir"|translate}}
+    </ion-button>
+
+    <div *ngIf="distance">
+      <br />
+      {{ distance }}
+    </div>
+  </ion-toolbar>
+</ion-footer>

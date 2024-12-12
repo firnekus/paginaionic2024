@@ -1,0 +1,147 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Registro</ion-card-title>
+  </ion-card-header>
+   <ion-card-content>
+    <form (ngSubmit)="guardarUsuario()">
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Cuenta" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="cuenta"
+          name="cuenta"
+          id="cuenta"
+          ngDefaultControl
+          required
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Correo" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="correo"
+          name="correo"
+          id="correo"
+          ngDefaultControl
+          required
+          email
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Pass" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="password"
+          name="password"
+          ngDefaultControl
+          id="password"
+          type="password"
+          required
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Pregunta" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="preguntaSecreta"
+          name="preguntaSecreta"
+          id="pregunta"
+          ngDefaultControl
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Respuesta" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="respuestaSecreta"
+          id="respuesta"
+          name="respuestaSecreta"
+          ngDefaultControl
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Nombre" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="nombre"
+          id="nombre"
+          name="nombre"
+          ngDefaultControl
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Apellido" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="apellido"
+          name="apellido"
+          id="apellido"
+          ngDefaultControl
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Direccion" | translate
+        }}</ion-label>
+        <ion-input
+          [(ngModel)]="direccion"
+          name="direccion"
+          id="direccion"
+          ngDefaultControl
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">{{
+          "MisDatos.Label.Educacion" | translate
+        }}</ion-label>
+        <ion-select
+          [(ngModel)]="nivelEducacional"
+          name="nivelEducacional"
+          id="nivelEd"
+          ngDefaultControl
+          (ionChange)="actualizarNivelEducacional($event)"
+        >
+          <ion-select-option
+            *ngFor="let nivelEducacional of listaNivelesEducacionales"
+            [value]="nivelEducacional.id"
+          >
+            {{ nivelEducacional!.nombre }}
+          </ion-select-option>
+          
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-datetime
+          [(ngModel)]="fechaNacimiento"
+          name="fechaNacimiento"
+          (ionChange)="onFechaNacimientoChange($event)"
+          label="Nacimiento"
+          name="fechaNacimiento"
+          id="fechaNac"
+          ngDefaultControl
+          labelPlacement="floating"
+          >
+        {{fechaNacimiento}}
+        </ion-datetime>
+      </ion-item>
+
+      <ion-button expand="full" type="submit">REGISTRARME</ion-button>
+    </form>
+  </ion-card-content>
+</ion-card>

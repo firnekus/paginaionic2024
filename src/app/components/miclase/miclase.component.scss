@@ -1,0 +1,87 @@
+/* Centrar el contenedor principal */
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Estilo para el contenedor interior */
+  .enmarcar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para el texto de contenido */
+  .header {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .content {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para la grid de asistencia */
+  .asistencia-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  
+  /* Asegurar que los elementos de la grid se alineen bien */
+  .asistencia-grid .header {
+    text-align: left;
+  }
+  
+  .asistencia-grid .content {
+    text-align: left;
+    color: #777;
+  }
+    
+  
+  /* Estilo general para los botones, si es necesario agregar alguno */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Resaltar la asistencia con un color de fondo diferente */
+  .asistencia-grid {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  

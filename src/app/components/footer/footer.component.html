@@ -1,0 +1,26 @@
+<ion-footer>
+  <ion-toolbar color="secondary" class="ion-text-center">
+    <ion-segment value="misdatos" [(ngModel)]="componente_actual" (ionChange)="cambiarComponente($event)">
+      <ion-segment-button value="qr" *ngIf=" usuario.cuenta != 'admin'">
+        <ion-label>{{"Footer.Link.QR"|translate}}</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="miclase" id="miclase" *ngIf=" usuario.cuenta != 'admin'"> 
+        <ion-label>{{"Footer.Link.MI CLASE"|translate}}</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="foro" id="foro">
+        <ion-label>{{"Footer.Link.FORO"|translate}}</ion-label>
+      </ion-segment-button>
+
+      <ion-segment-button value="misdatos" id="misdatos">
+        <ion-label>{{"Footer.Link.MIS DATOS"|translate}}</ion-label>
+      </ion-segment-button>
+
+
+      <ion-segment-button value="usuarios" id="usuario" *ngIf=" usuario.cuenta == 'admin'" >
+        <ion-label>{{"Footer.Link.USUARIOS"|translate}}</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>

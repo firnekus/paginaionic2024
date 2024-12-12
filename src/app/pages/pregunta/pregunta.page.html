@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Recuperar Contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Contenedor para logo y mensaje fuera del card -->
+  <div class="logo-container">
+    <img alt="Imagen de validación" src="../../../assets/img/logoDuoc.png" class="imagen-validacion" />
+    <h1>Sistema de Asistencia DUOC</h1>
+  </div>
+
+  <div class="center-container">
+    <div class="ion-padding-vertical">
+      <ion-card class="ion-text-center card-custom">
+        <ion-card-content>
+          <ion-card-header>
+            <ion-toolbar>
+              <h1 style="font-family: Merriweather">{{"Pregunta.Title.Respuesta" | translate}}</h1>
+            </ion-toolbar>
+          </ion-card-header>
+
+          <!-- Texto informativo adicional debajo del título -->
+          <h3>{{"Pregunta.Label.PasoDos" |translate}}</h3>
+
+          <h2 *ngIf="usuario">
+           {{ usuario.nombre }} {{ usuario.apellido }}!
+          </h2>
+
+          <ion-item class="floating-label">
+            <ion-label style="font-family: Lato" position="floating" class="question-label"> {{usuario.preguntaSecreta}} </ion-label>
+            <ion-input [(ngModel)]="respuesta" type="text" class="input-field"></ion-input>
+          </ion-item>
+
+          <ion-grid>
+            <div class="ion-margin-top">
+              <ion-button 
+                style="font-family: Noto Sans" 
+                shape="round" 
+                size="small" 
+                (click)="validarRespuesta()" 
+                class="ancho-boton">
+                {{"Pregunta.Button.Recuperar" | translate}}
+              </ion-button>
+            </div>
+          </ion-grid>
+        </ion-card-content>
+
+        <!-- Enlace de "Iniciar sesión" fuera del cuadro -->
+        <a 
+          (click)="mandarAInicio()" 
+          style="font-family: Noto Sans; color: #0dd9e0; text-decoration: none; display: block; margin-bottom: 10px; cursor: pointer;">
+          {{"Pregunta.Link.Inicio"|translate}}
+        </a>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

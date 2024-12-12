@@ -1,0 +1,87 @@
+ion-content {
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+}
+
+ion-item {
+  --padding-bottom: 10px;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 80%; /* Ajusta el tamaño según sea necesario */
+  max-width: 300px; /* Limita el tamaño máximo */
+  margin-bottom: 5px; /* Reduce el espacio entre el logo y el mensaje */
+  display: block; /* Asegura que el logo sea un bloque */
+  margin-left: auto; /* Centra horizontalmente */
+  margin-right: auto; /* Centra horizontalmente */
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Asegura que el contenido esté en columna */
+}
+
+.enmarcar {
+  margin-top: 0; /* Reduce o quita el margen superior del mensaje */
+}
+
+ion-toolbar {
+  margin-top: 5px; /* Ajusta la separación entre la imagen y el mensaje de bienvenida */
+}
+
+.floating-label ion-label {
+  font-size: 14px;
+  color: #003366;
+}
+
+.floating-label ion-input {
+  --padding-start: 0;
+}
+
+.floating-label .native-input {
+  padding: 16px 0;
+}
+
+.floating-label ion-item {
+  margin-bottom: 16px;
+}
+
+ion-button {
+  --background: #1c66af;
+  --color: #ffffff;
+}
+
+ion-button:active {
+  --background: #f1b634;
+}
+
+ion-button.ion-button-outline {
+  --border-color: #f1b634;
+}
+
+ion-header {
+  background-color: #f2bd48;
+}
+
+ion-footer {
+  background-color: #f2bd48;
+}
+  
+.welcome-message {
+  background-color: #5c5c5c;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

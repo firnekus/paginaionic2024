@@ -1,0 +1,105 @@
+ion-content {
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+  }
+  
+  .body {
+    border-radius: 25px;
+  }
+  
+  
+  ion-item {
+    --padding-bottom: 10px;
+  }
+  
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .foto-portada {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px #003366;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 40px;
+  }
+  
+  .foto-portada:hover {
+    transform: scale(1.03);
+  }
+  
+  @media screen and (orientation: landscape) {
+    .center-container {
+      height: 80%;
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .foto-portada {
+      width: 80%;
+      max-width: 500px;
+    }
+  }
+  
+  .centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .floating-label ion-label {
+    border-radius: 25px;
+    font-size: 14px; 
+    color: #F7E300;
+  }
+  
+  .floating-label ion-input {
+    border-radius: 25px;
+    --padding-start: 0;
+  }
+  
+  .floating-label .native-input {
+    border-radius: 25px;
+    padding: 16px 0;
+  }
+  
+  .floating-label ion-item {
+    border-radius: 25px;
+    margin-bottom: 16px;
+  }
+  
+  ion-button {
+    --background: #F7E300;
+    --color: #000000; 
+  }
+  
+  ion-button:active {
+    --background: #E0C300; 
+  }
+  
+  ion-button.ion-button-outline {
+    --border-color: #F7E300; 
+  }
+  
+  #recuperar {
+    --background: #ff4700;
+  }
+  
+  div.toolbar-content {
+    --ion-background-color: #FFB71D;
+      color: #FFB71D;
+  }
+  
