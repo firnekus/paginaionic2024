@@ -1,0 +1,150 @@
+{
+  "publicaciones": [
+    {
+      "id": "1",
+      "title": "El Rey de los Dinosaurios: Tiranosaurio Rex",
+      "body": "Exploramos la vida y características del poderoso Tiranosaurio Rex.",
+      "author": "Juan Pérez",
+      "date": "27/10/2024",
+      "authorImage": "https://example.com/images/juan_perez.jpg"
+    },
+    {
+      "id": "2",
+      "title": "El Velociraptor: Más pequeño, pero mortal",
+      "body": "Descubre la agilidad y ferocidad de este pequeño dinosaurio carnívoro.",
+      "author": "Juan Pérez",
+      "date": "27/10/2024",
+      "authorImage": "https://example.com/images/juan_perez.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Triceratops: El herbívoro de los tres cuernos",
+      "body": "Todo sobre el Triceratops, un herbívoro con un aspecto impresionante.",
+      "author": "Carla Mujica",
+      "date": "27/10/2024",
+      "authorImage": "https://example.com/images/carla_mujica.jpg"
+    },
+    {
+      "id": "4",
+      "body": "Tong",
+      "author": "undefined undefined",
+      "title": "Wa",
+      "date": ""
+    },
+    {
+      "id": "5",
+      "title": "Dinosaurios en el Cine: Jurassic Park",
+      "body": "Cómo Jurassic Park cambió nuestra percepción de los dinosaurios.",
+      "author": "Juan Pérez",
+      "date": "27/10/2024",
+      "authorImage": "https://example.com/images/juan_perez.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Los Dinosaurios Voladores: Pterosaurios",
+      "body": "Conoce a los dinosaurios voladores que dominaron el cielo prehistórico.",
+      "author": "Carla Mujica",
+      "date": "27/10/2024",
+      "authorImage": "https://example.com/images/carla_mujica.jpg"
+    },
+    {
+      "id": "6",
+      "correo": "atorres@duocuc.cl",
+      "nombre": "Ana",
+      "apellido": "Torres",
+      "titulo": "Atun",
+      "contenido": "Cito"
+    },
+    {
+      "id": "7",
+      "body": "Perez Barraza",
+      "author": "Ana Torres",
+      "title": "Joan Antonio",
+      "date": ""
+    },
+    {
+      "id": "8",
+      "body": "Y ahora mismo estoy invadiendo una cama de por ahi",
+      "author": "Amadeus Gato Naranjo",
+      "title": "Hola soy el admin ",
+      "date": ""
+    },
+    {
+      "id": "9",
+      "body": "fghgfh",
+      "author": "Ana Torres",
+      "title": "ghgfh",
+      "date": ""
+    },
+    {
+      "id": "10",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "11",
+      "body": "waaaaa",
+      "author": "Ana Torres",
+      "title": "waa",
+      "date": ""
+    },
+    {
+      "id": "12",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "13",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "14",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "15",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "16",
+      "body": "Contenido de la publicación",
+      "author": "Ana Torres",
+      "title": "Publicacion de Prueba",
+      "date": ""
+    },
+    {
+      "id": "17",
+      "body": "Yo digo que es universidad de chile, he estado todo el rato diciendo que es el colo pero cambie de parecer",
+      "author": "Campos Shopping",
+      "title": "El mejor equipo de futbol chileno",
+      "date": ""
+    },
+    {
+      "id": "18",
+      "body": "44444444444444444WEEEEEEEEEEErrrrr",
+      "author": "Ana Torres",
+      "title": "75675675676575676765765",
+      "date": ""
+    },
+    {
+      "id": "19",
+      "body": "Como les va",
+      "author": "Ana Torres",
+      "title": "Buen día grupo",
+      "date": ""
+    }
+  ]
+}
