@@ -1,0 +1,155 @@
+{
+    "AppName": "Sistema de aplicacion DUOC",
+    "AuthorText": "Desarrollado por:",
+    "Author": "Cristián Gómez Vega",
+    "Language": "Idioma",
+    "Language.English": "English",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+    "Leerqr.Mensaje": "Por favor escanea el codigo qr",
+    "Miclase.Bienvenido": "Bienvenido(a)",
+    "Miclase.Label.BloqueInicio": "Bloque Inicio",
+    "Miclase.Label.BloqueTermino": "Bloque Termino",
+    "Miclase.Label.Dia": "Dia",
+    "Miclase.Label.HoraInicio": "Hora de Inicio",
+    "Miclase.Label.HoraFin": "Hora de Fin",
+    "Miclase.Label.ID": "ID Asignatura",
+    "Miclase.Label.Asignatura": "Nombre Asignatura",
+    "Miclase.Label.NombreProfe": "Nombre del Profesor",
+    "Miclase.Label.Seccion": "Sección",
+    "Miclase.Label.Sede": "Sede",
+    "mensajeDirigirse": "Dirigete a mi clase!",
+
+    "Mensaje.HastaPronto": "Hasta pronto",
+
+    "Start.StartNewExperience": "Comienza una nueva experiencia",
+
+    "Login.Title.Login": "Iniciar sesión",
+    "Login.Label.Email": "Correo",
+    "Login.Placeholder.Email": "Ingresa aquí tu correo",
+    "Login.Label.Password": "Contraseña",
+    "Login.Placeholder.Password": "Ingresa aquí tu contraseña",
+    "Login.Button.Login": "Ingresar",
+    "Login.Button.Signin": "Registrarse",
+    "Login.Button.ForgotPassword": "Olvidé mi contraseña",
+    "Login.Button.DarkMode": "Oscuro",
+
+    "WelcomePage.Title.Welcome": "¡Bienvenido, ",
+
+    "HomePage.Button.Wellcome": "Inicio",
+    "HomePage.Button.Scan": "Escanear",
+    "HomePage.Button.Dinosaur": "Dinosaurio",
+    "HomePage.Button.Forum": "Foro",
+    "HomePage.Button.Inicio": "Inicio",
+    "HomePage.Button.MisDatos": "Mis Datos",
+    "HomePage.Button.Asistencia": "Asistencia",
+    "HomePage.Button.Salir": "Cerrar Sesión",
+    "HomePage.Button.Bienvenido": "Para entrar a la clase, por favor revise abajo.",
+
+
+
+    "Foro.Link.Limpiar": "Limpiar",
+    "Foro.Link.Guardar": "Guardar",
+    "Foro.Label.Publicacion": "Publicaciones recientes",
+    "Foro.Link.Editar": "Editar",
+    "Foro.Link.Eliminar": "Eliminar",
+    "Foro.Label.Ingresar":"Ingresa tu publicación",
+    "Foro.Label.Titulo": "Titulo",
+    "Foro.Label.Contenido": "Contenido",
+
+
+    "Home.Link.Salir":"Salir",
+
+
+    "Header.Label.Sistema de asistencia Duoc":"Sistema de asistencia Duoc",
+    "Header.Link.Salir":"Salir",
+
+   
+
+    "Footer.Link.QR": "QR",
+    "Footer.Link.MI CLASE": "Mi CLASE",
+    "Footer.Link.FORO": "FORO",
+    "Footer.Link.MIS DATOS": "Mis DATOS",
+    "Footer.Link.USUARIOS": "Usuarios",
+
+    "Usuarios.Label.Titulo": "Nombre",
+    "Usuarios.Label.FechaNac": "Fecha de Nacimiento",
+    "Usuarios.Label.NivelEd": "Nivel Educacional",
+    "Usuarios.Label.Correo": "Correo",
+    "Usuarios.Label.NombreCu": "Nombre de Cuenta",
+    "Usuarios.Label.Direccion": "Dirección",
+
+
+    "Correo.Title.Titulo":"Recuperación de Contraseña",
+    "Correo.Label.PasoUno":"Paso 1: Ingrese su correo",
+    "Correo.Label.Correo":"Ingrese su correo",
+    "Correo.Link.Inicio":"Inicio",
+
+    "Pregunta.Title.Respuesta": "Ingresa tu respuesta",
+    "Pregunta.Button.Recuperar": "Recuperar Contraseña",
+    "Pregunta.Label.PasoDos":"paso  2:ingresa tu e-mail",
+    "Pregunta.Link.Inicio":"Inicio",
+
+    "Incorrecto.Label.TextUno": "¡lo sentimos !",
+    "Incorrecto.Label.TextDos": "Tus datos son invalidos :",
+    "Incorrecto.Link.Inicio":"Inicio",
+
+    "Correcto.Label.TextUno": "¡Tu cuenta ha sido validada!",
+    "Correcto.Label.TextDos": "Tu contraseña:",
+    "Correcto.Link.Inicio":"Inicio",
+
+    "MisDatos.Label.Cuenta": "Cuenta",
+    "MisDatos.Label.Correo": "Correo",
+    "MisDatos.Label.Pass": "Contraseña",
+    "MisDatos.Label.Pregunta": "Pregunta secreta",
+    "MisDatos.Label.Respuesta": "Respuesta secreta",
+    "MisDatos.Label.Nombre": "Nombre",
+    "MisDatos.Label.Apellido": "Apellido",
+    "MisDatos.Label.Direccion": "Dirección",
+    "MisDatos.Label.Educacion": "Educación",
+    "MisDatos.Link.Guardar": "Guardar",
+    "MisDatos.Label.Fecha": "Fecha",
+
+
+
+
+    "ThemePage.Label.ColorTheme": "Tema de color:",
+    "ThemePage.Color.Light": "Claro",
+    "ThemePage.Color.Dark": "Oscuro",
+    "ThemePage.Color.Green": "Verde",
+    "ThemePage.Color.Red": "Rojo",
+    "ThemePage.Color.Naranjo": "Naranjo",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Duoc": "DUOC",
+    
+    "ThemePage.Button.Primary": "Botón Primario",
+    "ThemePage.Button.Secondary": "Botón Secundario",
+    "ThemePage.Button.Tertiary": "Botón Terciario",
+    "ThemePage.Button.Success": "Botón Éxito",
+    "ThemePage.Button.Warning": "Botón Advertencia",
+    "ThemePage.Button.Danger": "Botón Peligro",
+    "ThemePage.Button.Light": "Botón Claro",
+    "ThemePage.Button.Dark": "Botón Oscuro",
+    "ThemePage.Button.Home": "Inicio",
+    "ThemePage.Button.Login": "Login",
+    "ThemePage.Button.Logout": "Salir",
+    "ThemePage.Card.Title": "Título de la Tarjeta",
+    "ThemePage.Card.Subtitle": "Subtítulo de la Tarjeta",
+    "ThemePage.Card.Content": "Este es el contenido de la tarjeta. Puedes personalizar los colores de la tarjeta y su contenido.",
+    
+    "ThemePage.List.Title": "Listas",
+    "ThemePage.List.Item1": "Elemento de Lista 1",
+    "ThemePage.List.Item2": "Elemento de Lista 2",
+    "ThemePage.List.Item3": "Elemento de Lista 3",
+    
+    "ThemePage.Calendar.Title": "Calendarios",
+    
+    "ThemePage.Form.Title": "Ingreso de datos",
+    "ThemePage.Form.NameLabel": "Nombre",
+    "ThemePage.Form.NamePlaceholder": "Ingresa tu nombre",
+    "ThemePage.Form.DescriptionLabel": "Descripción",
+    "ThemePage.Form.DescriptionPlaceholder": "Escribe aquí una descripción...",
+    "ThemePage.Form.ToggleLabel": "Activar notificaciones",
+    "ThemePage.Form.CheckboxLabel": "Acepto los términos"
+}

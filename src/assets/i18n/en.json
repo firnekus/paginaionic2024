@@ -1,0 +1,150 @@
+{
+    "AppName": "Sistema de aplicacion DUOC",
+    "AuthorText": "Developed by:",
+    "Author": "Grupo",
+    "Language": "Language",
+    "Language.English": "English",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+    "Leerqr.Mensaje": "Please scan the QR code.",
+    "Miclase.Bienvenido": "Welcome",
+    "Mensaje.HastaPronto": "See you later",
+    "Miclase.Label.BloqueInicio": "Start Block",
+    "Miclase.Label.BloqueTermino": "End Block",
+    "Miclase.Label.Dia": "Day",
+    "Miclase.Label.HoraInicio": "Start Time",
+    "Miclase.Label.HoraFin": "End Time",
+    "Miclase.Label.ID": "Course ID",
+    "Miclase.Label.Asignatura": "Course Name",
+    "Miclase.Label.NombreProfe": "Professor's Name",
+    "Miclase.Label.Seccion": "Section",
+    "Miclase.Label.Sede": "Campus",
+    "mensajeDirigirse": "Go to my class!",
+
+    
+    "Start.StartNewExperience": "Start a new experience",
+
+    "Login.Title.Login": "Login",
+    "Login.Label.Email": "Email",
+    "Login.Placeholder.Email": "Enter your email here",
+    "Login.Label.Password": "Password",
+    "Login.Placeholder.Password": "Enter your password here",
+    "Login.Button.Login": "Login",
+    "Login.Button.Signin": "Sign Up",
+    "Login.Button.ForgotPassword": "Forgot my password",
+    "Login.Button.DarkMode": "Dark Mode",
+
+    "WelcomePage.Title.Welcome": "Welcome, ",
+
+    "HomePage.Button.Wellcome": "Home",
+    "HomePage.Button.Scan": "Scan",
+    "HomePage.Button.Dinosaur": "Dinosaur",
+    "HomePage.Button.Forum": "Forum",
+    "HomePage.Button.Inicio": "Home",
+    "HomePage.Button.MisDatos": "My Info",
+    "HomePage.Button.Asistencia": "Assistance",
+    "HomePage.Button.Salir": "Logout",
+    "HomePage.Button.Bienvenido": "Check out below to enter the class.",
+
+
+    "Foro.Link.Limpiar": "Clear",
+    "Foro.Link.Guardar": "Save",
+    "Foro.Label.Publicacion": "Recent Posts",
+    "Foro.Link.Editar": "Edit",
+    "Foro.Link.Eliminar": "Delete",
+    "Foro.Label.Ingresar": "Add a post",
+
+    "Home.Link.Salir":"Exit",
+
+    
+
+
+    "Header.Label.Sistema de asistencia Duoc": " Duoc Assistance System",
+    "Header.Link.Salir":"Exit",
+
+    "Footer.Link.QR": "QR CODE",
+    "Footer.Link.MI CLASE": "MY CLASS",
+    "Footer.Link.FORO": "FORUM",
+    "Footer.Link.MIS DATOS": "MY INFO",
+    "Footer.Link.USUARIOS": "Users",
+
+
+    "Correo.Title.Titulo":"Password Recovery",
+    "Correo.Label.PasoUno":"Step 1: Enter your E-Mail",
+    "Correo.Label.Correo":"Please enter your e-mail",
+    "Correo.Link.Inicio": "Home",
+
+    "Pregunta.Title.Respuesta": "Enter your private answer",
+    "Pregunta.Button.Recuperar": "Recover Password",
+    "Pregunta.Label.PasoDos": "Step 2: Enter your email",
+    "Pregunta.Link.Inicio": "Home",
+
+    "Incorrecto.Label.TextUno": "Sorry!",
+    "Incorrecto.Label.TextDos": "We haven't been able to determine if you're the owner.",
+    "Incorrecto.Link.Inicio":"Home",
+
+    "Correcto.Label.TextUno": "You've verified your ownership'!",
+    "Correcto.Label.TextDos": "Your password:",
+    "Correcto.Link.Inicio": "Home",
+
+    "MisDatos.Label.Cuenta": "Username",
+    "MisDatos.Label.Correo": "Email",
+    "MisDatos.Label.Pass": "Password",
+    "MisDatos.Label.Pregunta": "Secret Question",
+    "MisDatos.Label.Respuesta": "Answer",
+    "MisDatos.Label.Nombre": "First Name",
+    "MisDatos.Label.Apellido": "Last Name",
+    "MisDatos.Label.Direccion": "Address",
+    "MisDatos.Label.Educacion": "Education Level",
+    "MisDatos.Link.Guardar": "Save",
+    "MisDatos.Label.Fecha": "Date",
+
+    "Usuarios.Label.Titulo": "Full Name",
+    "Usuarios.Label.FechaNac": "Birth Date",
+    "Usuarios.Label.NivelEd": "Educational Progress",
+    "Usuarios.Label.Correo": "E-Mail",
+    "Usuarios.Label.NombreCu": "Account Name",
+    "Usuarios.Label.Direccion": "Home Address",
+
+    "ThemePage.Label.ColorTheme": "Color Theme:",
+    "ThemePage.Color.Light": "Light",
+    "ThemePage.Color.Dark": "Dark",
+    "ThemePage.Color.Green": "Green",
+    "ThemePage.Color.Red": "Red",
+    "ThemePage.Color.Naranjo": "Orange",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Duoc": "Duoc",
+    
+    "ThemePage.Button.Primary": "Primary Button",
+    "ThemePage.Button.Secondary": "Secondary Button",
+    "ThemePage.Button.Tertiary": "Tertiary Button",
+    "ThemePage.Button.Success": "Success Button",
+    "ThemePage.Button.Warning": "Warning Button",
+    "ThemePage.Button.Danger": "Danger Button",
+    "ThemePage.Button.Light": "Light Button",
+    "ThemePage.Button.Dark": "Dark Button",
+    "ThemePage.Button.Home": "Home",
+    "ThemePage.Button.Logout": "Logout",
+    
+    "ThemePage.Card.Title": "Card Title",
+    "ThemePage.Card.Subtitle": "Card Subtitle",
+    "ThemePage.Card.Content": "This is the content of the card. You can customize the colors of the card and its content.",
+    
+    "ThemePage.List.Title": "Lists",
+    "ThemePage.List.Item1": "List Item 1",
+    "ThemePage.List.Item2": "List Item 2",
+    "ThemePage.List.Item3": "List Item 3",
+    
+    "ThemePage.Calendar.Title": "Calendars",
+    
+    "ThemePage.Form.Title": "Data Entry",
+    "ThemePage.Form.NameLabel": "Name",
+    "ThemePage.Form.NamePlaceholder": "Enter your name",
+    "ThemePage.Form.DescriptionLabel": "Description",
+    "ThemePage.Form.DescriptionPlaceholder": "Write a description here...",
+    "ThemePage.Form.ToggleLabel": "Enable notifications",
+    "ThemePage.Form.CheckboxLabel": "I accept the terms"
+
+
+}

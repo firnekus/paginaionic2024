@@ -1,0 +1,151 @@
+{
+    "AppName": "Sistema de aplicacion DUOC",
+    "AuthorText": "Rakinon tamiñ:",
+    "Author": "equipo 4",
+    "Language": "Dugün",
+    "Language.English": "English",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+    "Leerqr.Mensaje": "Ñamkuñün kiñe kode QR",
+    "Miclase.Bienvenido": "Mari mari",
+    "Mensaje.HastaPronto": "Pewmafi",
+    "Miclase.Label.BloqueInicio": "Pewma rüfün",
+    "Miclase.Label.BloqueTermino": "Pewma pukem",
+    "Miclase.Label.Dia": "Antü",
+    "Miclase.Label.HoraInicio": "Pewma kimün",
+    "Miclase.Label.HoraFin": "Pukem kimün",
+    "Miclase.Label.ID": "Ñamkuñ mapu",
+    "Miclase.Label.Asignatura": "Ñamün mapu",
+    "Miclase.Label.NombreProfe": "Ñaña pu peñi",
+    "Miclase.Label.Seccion": "Rume",
+    "Miclase.Label.Sede": "Ñuke mapu",
+    "mensajeDirigirse": "Ñamküleal pu mew!",
+
+    "Start.StartNewExperience": "Eymi müley kiñe küpan trawün",
+
+    "Login.Title.Login": "Wüñolün",
+    "Login.Label.Email": "E-mail",
+    "Login.Placeholder.Email": "Eymi mülen teu e-mail",
+    "Login.Label.Password": "Rakinmapu",
+    "Login.Placeholder.Password": "Eymi mülen teu rakinmapu",
+    "Login.Button.Login": "Wüñolün",
+    "Login.Button.Signin": "Trawünme",
+    "Login.Button.ForgotPassword": "Ñi rakinmapu elañmafi",
+    "Login.Button.DarkMode": "Pewma külen müleyin",
+
+    "WelcomePage.Title.Welcome": "¡Tüfachi ",
+
+    "HomePage.Button.Wellcome": "Wüña",
+    "HomePage.Button.Scan": "Wütran",
+    "HomePage.Button.Dinosaur": "Tüfachi Chod",
+    "HomePage.Button.Forum": "Trapu",
+    "HomePage.Button.Inicio": "Ñamku",
+    "HomePage.Button.MisDatos": "Inkañ",
+    "HomePage.Button.Mi clase": "Ñi kämün",
+    "HomePage.Button.Asistencia": "Felen",
+    "HomePage.Button.Salir": "Püñeñün",
+    "HomePage.Button.Bienvenido": "Ñi pu mapu ñi gütan, felen pu üñümün ñi eñü.",
+
+    "Foro.Link.Limpiar": "Ñamku",
+    "Foro.Link.Guardar": "Felen",
+    "Foro.Label.Publicacion": "Ñamku ñi püle",
+    "Foro.Link.Editar": "Ñamkualün",
+    "Foro.Link.Eliminar": "Ñamkullün",
+    "Foro.Label.Ingresar": "Ñamku füta püle",
+
+
+
+    "Footer.Link.QR": "QR" ,
+    "Footer.Link.MI CLASE": "Ñi Lüf" ,
+    "Footer.Link.FORO": "Ñi Ñamün" ,
+    "Footer.Link.MIS DATOS": "Ñi Domo" ,
+    "Footer.Link.USUARIOS": "Kizu engün" ,
+
+    "Header.Label.Sistema de asistencia Duoc": "Duoc ñi kimün mew",
+    "Header.Link.Salir":"Ñi pu amun",
+
+
+
+    "Usuarios.Label.Titulo": "Ñamkulaw",
+    "Usuarios.Label.FechaNac": "Ñi rüpü",
+    "Usuarios.Label.NivelEd": "Ñamün Püyün",
+    "Usuarios.Label.Correo": "Mail",
+    "Usuarios.Label.NombreCu": "Ñamün pu Rewe",
+    "Usuarios.Label.Direccion": "Ñi pukemün",
+
+    "Correo.Title.Titulo": "Tüfün ñi püzvün",
+    "Correo.Label.PasoUno": "Püñe 1: Ingrese ñi correo",
+    "Correo.Label.Correo": "Ingrese ñi correo",
+    "Correo.Link.Inicio":"Püñeiñ kayün",
+    
+    
+    "Home.Link.Salir":"felen",
+
+
+    "Pregunta.Title.Respuesta": "Inkañ ñi eñü",
+    "Pregunta.Label.PasoDos":"Püñe 2: Ingreseñu fi ñi e-mail",
+    "Pregunta.Button.Recuperar": "Tüfün ñi püzvün",
+    "Pregunta.Link.Inicio":"Püñeiñ kayün",
+
+    "Correcto.Label.TextUno": "¡Ñi cuenta ñi küzaw!",
+    "Correcto.Label.TextDos": "Ñi tüfün:",
+    "Correcto.Link.Inicio": "Ñamku",
+
+    "Incorrecto.Label.TextUno": "¡Ñi eñfütü ñi wüfugün!",
+    "Incorrecto.Label.TextDos": "Pu amulnü, pero ñi felen ñi eymiñelülün mew müley ka ñi felen",
+    "Incorrecto.Link.Inicio":"Ñamku",
+
+
+
+    "MisDatos.Label.Cuenta": "Ñamku",
+    "MisDatos.Label.Correo": "Email",
+    "MisDatos.Label.Pass": "Ñi pu zungun",
+    "MisDatos.Label.Pregunta": "Ñi pu trawe",
+    "MisDatos.Label.Respuesta": "Ñi pu kelü",
+    "MisDatos.Label.Nombre": "Ñi pu lafken",
+    "MisDatos.Label.Apellido": "Ñi pu pegün",
+    "MisDatos.Label.Direccion": "Ñi pu kasü",
+    "MisDatos.Label.Educacion": "Ñi pu kimün",
+    "MisDatos.Link.Guardar": "Ñi pu we",
+    "MisDatos.Label.Fecha": "Püle",
+
+    "ThemePage.Label.ColorTheme": "Dugün de kolor:",
+    "ThemePage.Color.Light": "Külfün",
+    "ThemePage.Color.Dark": "Pewma",
+    "ThemePage.Color.Green": "Karü",
+    "ThemePage.Color.Red": "Kelü",
+    "ThemePage.Color.Naranjo": "Kelüchod",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Duoc": "DUOC",
+    
+    "ThemePage.Button.Primary": "Tüfachi Kutral",
+    "ThemePage.Button.Secondary": "Epü Kutral",
+    "ThemePage.Button.Tertiary": "Küla Kutral",
+    "ThemePage.Button.Success": "Kutral Mew",
+    "ThemePage.Button.Warning": "Kutral Kuifi",
+    "ThemePage.Button.Danger": "Kutral Püñeñ",
+    "ThemePage.Button.Light": "Kutral Külfün",
+    "ThemePage.Button.Dark": "Kutral Pewma",
+    "ThemePage.Button.Home": "Wüña",
+    "ThemePage.Button.Logout": "Tuway",
+
+    "ThemePage.Card.Title": "Tüfachi Rakin Tarjeta",
+    "ThemePage.Card.Subtitle": "Epü Rakin Tarjeta",
+    "ThemePage.Card.Content": "Tüfachi mülen rakin tarjetan. Eymü tayüwme kolores tami tarjeta ka mülen rakin.",
+    
+    "ThemePage.List.Title": "Listan",
+    "ThemePage.List.Item1": "Kiñe Wigkaz Ñi Listan",
+    "ThemePage.List.Item2": "Epü Wigkaz Ñi Listan",
+    "ThemePage.List.Item3": "Küla Wigkaz Ñi Listan",
+    
+    "ThemePage.Calendar.Title": "Küdaw Tüfachi",
+    
+    "ThemePage.Form.Title": "Trawün ka Eymi Ingresun",
+    "ThemePage.Form.NameLabel": "Wüñam",
+    "ThemePage.Form.NamePlaceholder": "Eymi mülen teu wüñam",
+    "ThemePage.Form.DescriptionLabel": "Püllün",
+    "ThemePage.Form.DescriptionPlaceholder": "Eymi mülen ta püllün...",
+    "ThemePage.Form.ToggleLabel": "Külfünon notificaciones",
+    "ThemePage.Form.CheckboxLabel": "Amun nien küme alka müleyfi"
+}
